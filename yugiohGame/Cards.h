@@ -2,9 +2,9 @@
 #define CARDS_H
 #include <string>
 
-using namespace std;
+using namespace std; //no std::
 
-class Cards
+class Cards 
 {
 public:
 	Cards();

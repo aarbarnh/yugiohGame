@@ -3,7 +3,6 @@
 
 #include "Field.h"
 #include "Hand.h"
-#include<string>
 #include<vector>
 
 class MonsterZone :
@@ -14,6 +13,7 @@ public:
 	MonsterZone(int size, string type);
 	void SummonMonster(Hand hand, string monster, string mode);
 	void ShowMonsterZone();
+	void AttackMonster(vector<Cards> mZone, string attacker, string target);
 	vector<Cards> GetMonsterZone();
 	~MonsterZone();
 private:

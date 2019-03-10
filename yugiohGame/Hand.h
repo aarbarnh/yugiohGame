@@ -5,7 +5,6 @@
 #include "Deck.h"
 #include <vector>
 #include <string>
-#include <algorithm>
 
 class Hand :
 	public Field

@@ -30,7 +30,7 @@ private:
 	string cardAttribute; 
 	string monsterType; 
 	string attackDefense;
-	bool isSet; //impletment later
+	bool isSet; 
 	int attackPts;
 	int defensePts;
 	int cardStars;
